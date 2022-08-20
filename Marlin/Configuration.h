@@ -71,7 +71,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(Prusa, MK3S+)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(Jbyerline, Pr-10)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 // Disable this for FAN_PIN 8 and FAN1_PIN 6
@@ -164,7 +164,7 @@
 //#define BLUETOOTH
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Whosa PR-10S+"
+#define CUSTOM_MACHINE_NAME "PR-10"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -1768,8 +1768,8 @@
 #if EITHER(AUTO_BED_LEVELING_LINEAR, AUTO_BED_LEVELING_BILINEAR)
 
   // Set the number of grid points per dimension.
-  #define GRID_MAX_POINTS_X 4
-  #define GRID_MAX_POINTS_Y 4
+  #define GRID_MAX_POINTS_X 7
+  #define GRID_MAX_POINTS_Y 7
 
   // Probe along the Y axis, advancing X after each column
   //#define PROBE_Y_FIRST

@@ -2793,8 +2793,8 @@
 //    #define Y_CURRENT       500 // old custom
     #define Y_CURRENT       1760  // custom
     //#define Y_CURRENT_HOME  182
-//    #define Y_CURRENT_HOME  260   // old custom
-    #define Y_CURRENT_HOME  Y_CURRENT   // custom
+   #define Y_CURRENT_HOME  260   // old custom
+    // #define Y_CURRENT_HOME  Y_CURRENT   // custom
     #define Y_MICROSTEPS     16
     #define Y_RSENSE       0.22
     #define Y_CHAIN_POS      -1
@@ -3204,7 +3204,7 @@
     // TMC2209: 0...255. TMC2130: -64...63
     #define X_STALL_SENSITIVITY  3
     #define X2_STALL_SENSITIVITY X_STALL_SENSITIVITY
-    #define Y_STALL_SENSITIVITY  3
+    #define Y_STALL_SENSITIVITY  1
     #define Y2_STALL_SENSITIVITY Y_STALL_SENSITIVITY
     //#define Z_STALL_SENSITIVITY  8
     //#define Z2_STALL_SENSITIVITY Z_STALL_SENSITIVITY
